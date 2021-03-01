@@ -14,7 +14,7 @@ class Config:
     Lang: Optional[str] = None
     Output: Optional[str] = None
     Elasticsearch: object = None
-     Elasticsearch_cert: Optional[str] = None
+    Elasticsearch_cert: Optional[str] = None
     Elasticsearch_user: Optional[str] = None
     Elasticsearch_pass: Optional[str] = None
     Year: Optional[int] = None
